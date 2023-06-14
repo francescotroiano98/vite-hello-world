@@ -4,13 +4,17 @@
       <h1>
         {{ message }}
       </h1>
+      <Title/>
     </div>
     
   </template>
   
   <script>
-  
+    import Title from './Title.vue'
     export default{
+        components:{
+            Title
+        },
       data(){
   
         return{
